@@ -1,0 +1,82 @@
+/*
+  TODO SASSify this CSS
+*/
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-weight: 300;
+}
+
+strong {
+  font-weight: 400;
+}
+
+/* Common Styles */
+.form-group {
+  padding-top: 0;
+  margin-bottom: 10px;
+}
+
+.background-white {
+  background-color: #fff;
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.form-group .input-error {
+  color: #ff0000;
+  margin-top: -10px;
+  padding-bottom: 10px;
+}
+
+
+.signin-container-background {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+nav.navbar {
+  border-radius: 0;
+}
+
+nav.navbar .container {
+  width: 100%;
+}
+
+.container-center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.container-center.responsive {
+  width: 50%;
+  height: 50%;
+  min-width: 200px;
+  max-width: 400px;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container-center.responsive {
+      height: 100%;
+      width: 100%;
+      padding: 10px;
+      min-width: none;
+      max-width: none;
+    }
+
+    .text-align-right.responsive {
+      text-align: left;
+    }
+}
